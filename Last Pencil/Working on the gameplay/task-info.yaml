@@ -137,6 +137,25 @@ files:
     if __name__ == '__main__':
         LastPencilTest().run_tests()
   learner_created: false
-feedback_link: https://hyperskill.org/projects/258/stages/1304/implement#comment
-status: Unchecked
+feedback_link: https://hyperskill.org/learn/step/20065#comment
+status: Failed
+feedback:
+  message: |-
+    Wrong answer in test #2
+
+    When one of the players enters amount of pencils, he wanted to remove, there should be printed exactly 2 non-empty lines
+
+    Please find below the output of your program during this failed test.
+    Note that the '>' character indicates the beginning of the input line.
+
+    ---
+
+    How many pencils would you like to use:
+    > 5
+    Who will be the first (John, Jack)
+    > John
+    |||||
+    John's turn
+    > 2
+  time: Mon, 11 Jul 2022 02:27:55 UTC
 record: -1

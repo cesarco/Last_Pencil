@@ -404,6 +404,6 @@ files:
     if __name__ == '__main__':
         LastPencilTest().run_tests()
   learner_created: false
-feedback_link: https://hyperskill.org/projects/258/stages/1306/implement#comment
+feedback_link: https://hyperskill.org/learn/step/20067#comment
 status: Unchecked
 record: -1

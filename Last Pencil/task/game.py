@@ -3,10 +3,18 @@ num_1 = int(input())
 
 print('Who will be the first (John, Jack)')
 user = input()
+multi = '|' * num_1
+print(multi)
+print(f"{user}'s turn")
 
-if user == 'John':
-    print(num_1 * "|")
-    print(user + " is going first")
-elif user == 'Jack':
-    print(num_1 * "|")
-    print(user + " is going first")
+while len(multi) > 0:
+    user = input()
+    if user == 'Jack':
+        multi = multi[:num_1]
+        print(multi[:])
+        print("Jack's turn:")
+    elif user == 'John':
+        multi = multi[:num_1]
+        print(multi[:])
+        print("John's turn:")
+
