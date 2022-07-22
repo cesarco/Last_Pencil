@@ -245,5 +245,8 @@ files:
         LastPencilTest().run_tests()
   learner_created: false
 feedback_link: https://hyperskill.org/learn/step/20066#comment
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Fri, 22 Jul 2022 22:28:35 UTC
 record: 4
